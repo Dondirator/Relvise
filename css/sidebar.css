@@ -1,0 +1,225 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+html,
+body {
+  height: 100%;
+  line-height: 1;
+  font-size: 14px;
+  color: #000;
+  font-weight: 500;
+  font-family: Roboto;
+  background-color: #FAFAFA;
+}
+
+.wrapper {
+  overflow: hidden;
+}
+
+._container {
+  max-width: 1240px;
+  padding: 0px 15px;
+  margin: 0px auto;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  position: relative;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.main-content {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 70%;
+          flex: 0 1 70%;
+  margin: 0px 30px 0px 0px;
+}
+
+.side-bar {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 25%;
+          flex: 0 1 25%;
+}
+
+/*=========================================================side-bar============================================*/
+.side-bar__publication {
+  border-bottom: 1px solid #E4E8ED;
+  padding: 0px 0px 22px 0px;
+}
+.side-bar__publication h2 {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 130%;
+  color: #000000;
+}
+
+.side-bar__publication-holder {
+  margin: 20px 0px 0px 0px;
+  width: 270px;
+  height: 270px;
+  background: #F5F7FA;
+  border-radius: 10px;
+}
+
+.side-bar__navigation__title {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 225%;
+  letter-spacing: 0em;
+  color: #000000;
+  border-bottom: 1px solid #E4E8ED;
+  padding: 40px 0px 10px 0px;
+}
+
+.side-bar__navigation__item:not(:last-child) {
+  border-bottom: 1px solid #E4E8ED;
+}
+
+.side-bar__navigation__item:last-child {
+  margin: 0px 0px 30px 0px;
+}
+
+.side-bar__navigation__link {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 346%;
+  letter-spacing: 0em;
+  color: #5A80B1;
+}
+
+.side-bar__navigation__link:hover {
+  color: red;
+}
+
+/*========================================maib content=====================*/
+.grammar-analysis__body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.grammar-analysis__title {
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 86%;
+  letter-spacing: 0em;
+  padding: 0px 0px 30px 0px;
+}
+
+.grammar-analysis__form {
+  width: 100%;
+  height: 133px;
+  background-color: #F5F7FA;
+  border-radius: 10px;
+  padding: 10px 10px 10px 10px;
+}
+
+.grammar-analysis_btn-center {
+  text-align: center;
+  padding: 20px 0px 0px 0px;
+}
+
+.grammar-analysis__btn {
+  background-color: #5A80B1;
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 162%;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #fff;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.grammar-analysis__btn:hover {
+  background-color: #112c4e;
+}
+
+.rules__body {
+  margin: 40px 0px 0px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.rules__body:last-child {
+  padding: 0px 0px 60px 0px;
+  border-bottom: 1px solid #E4E8ED;
+}
+
+.rules__mio {
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0em;
+  color: #5A80B1;
+  line-height: 130px;
+}
+
+.rules__block {
+  border: 1px solid rgba(90, 128, 177, 0.27);
+  border-radius: 10px;
+  padding: 15px 25px;
+}
+
+.rules__title {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 225%;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.rules__text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-weight: 300;
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 162%;
+  letter-spacing: 0em;
+}
+.rules__text p {
+  font-weight: 500;
+}
